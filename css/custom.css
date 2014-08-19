@@ -15,10 +15,34 @@
 .navbar li:hover {
    background: #e7e7e7;
 }
+
+li.login a{
+    background: #ca2129;
+    margin-bottom: -10px !important;
+    color: #ffffff !important;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+li.login a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background: #cccccc;
+}
+
+
+li.register a{
+    background: #2f98cc;
+    margin-bottom: -10px !important;
+    color: #ffffff !important;
+}
+
+li.register a:hover, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background: #cccccc;
+}
+
 .jumbotron {
     background: url("../images/waterdrop.jpg") no-repeat 50% 0;
     height: 350px;
-    padding: 0px;
+    margin-top: 15px;
 }
 
 .jumbotron [class*="col-"] {
@@ -95,3 +119,20 @@
     color: #ffffff;
 }
 
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+    background: #ca2129;
+    border: #ca2129;
+}
+
+.grey-list a.list-group-item.active, .grey-list a.list-group-item.active:hover, .grey-list a.list-group-item.active:focus {
+    background: #f4f4f4;
+    border: #cccccc;
+    color: #666666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+    background-color: #f4f4f4;
+}
